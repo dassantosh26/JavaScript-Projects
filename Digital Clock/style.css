@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #111;
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.clock {
+  background-color: yellow;
+  padding: 10px;
+  margin-top: 15px;
+  color: red;
+  font-size: 2rem;
+  font-weight: 600;
+}
