@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.generator {
+  background-color: rgb(82, 233, 233);
+  width: 500px;
+  height: 400px;
+  text-align: center;
+}
+.generator h1 {
+  padding: 50px 0;
+  color: #354e07;
+  font-size: 2.3rem;
+}
+span {
+  background-color: aliceblue;
+  font-size: 2.5rem;
+  padding: 15px;
+  color: rgb(67, 90, 5);
+}
+.generator hr {
+  border: 2px solid #fff;
+  margin-top: 20px;
+}
+.btn {
+  margin-top: 15px;
+}
+.reset-btn {
+  padding: 15px 10px;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: black;
+  color: red;
+  border-radius: 10px;
+}
+.reset-btn i {
+  margin-right: 10px;
+}
